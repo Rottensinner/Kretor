@@ -1,0 +1,121 @@
+{
+    "Races": [
+      {
+        "Name": "Human",
+        "Attributes": {
+          "Strength": 1,
+          "Dexterity": 1,
+          "Constitution": 1,
+          "Intelligence": 1,
+          "Wisdom": 1,
+          "Charisma": 1
+        },
+        "Skills": ["Extra Language"],
+        "Subraces": []
+      },
+      {
+        "Name": "Elf",
+        "Attributes": {
+          "Dexterity": 2
+        },
+        "Skills": ["Darkvision", "Keen Senses", "Fey Ancestry", "Trance"],
+        "Subraces": [
+          {
+            "Name": "High Elf",
+            "Attributes": {
+              "Intelligence": 1
+            },
+            "Skills": ["Cantrip", "Extra Language"]
+          },
+          {
+            "Name": "Wood Elf",
+            "Attributes": {
+              "Wisdom": 1
+            },
+            "Skills": ["Fleet of Foot", "Mask of the Wild"]
+          },
+          {
+            "Name": "Dark Elf (Drow)",
+            "Attributes": {
+              "Charisma": 1
+            },
+            "Skills": ["Superior Darkvision", "Sunlight Sensitivity", "Drow Magic", "Drow Weapon Training"]
+          }
+        ]
+      },
+      {
+        "Name": "Dwarf",
+        "Attributes": {
+          "Constitution": 2
+        },
+        "Skills": ["Darkvision", "Dwarven Resilience", "Dwarven Combat Training", "Tool Proficiency", "Stonecunning"],
+        "Subraces": [
+          {
+            "Name": "Hill Dwarf",
+            "Attributes": {
+              "Wisdom": 1
+            },
+            "Skills": ["Dwarven Toughness"]
+          },
+          {
+            "Name": "Mountain Dwarf",
+            "Attributes": {
+              "Strength": 2
+            },
+            "Skills": ["Dwarven Armor Training"]
+          }
+        ]
+      }
+    ],
+    "Classes": [
+      {
+        "Name": "Warrior",
+        "HitDie": "1d10 per warrior level",
+        "PrimaryAbility": ["Strength", "Constitution"],
+        "Saves": ["Strength", "Constitution"],
+        "Subclasses": [
+          {
+            "Name": "Champion",
+            "Skills": ["Improved Critical", "Remarkable Athlete", "Additional Fighting Style", "Superior Critical"]
+          },
+          {
+            "Name": "Battle Master",
+            "Skills": ["Combat Superiority", "Student of War", "Know Your Enemy", "Relentless"]
+          }
+        ]
+      },
+      {
+        "Name": "Mage",
+        "HitDie": "1d6 per mage level",
+        "PrimaryAbility": ["Intelligence"],
+        "Saves": ["Intelligence", "Wisdom"],
+        "Subclasses": [
+          {
+            "Name": "Evocation",
+            "Skills": ["Sculpt Spells", "Potent Cantrip", "Empowered Evocation", "Overchannel"]
+          },
+          {
+            "Name": "Illusion",
+            "Skills": ["Improved Minor Illusion", "Malleable Illusions", "Illusory Self", "Illusory Reality"]
+          }
+        ]
+      },
+      {
+        "Name": "Rogue",
+        "HitDie": "1d8 per rogue level",
+        "PrimaryAbility": ["Dexterity"],
+        "Saves": ["Dexterity", "Intelligence"],
+        "Subclasses": [
+          {
+            "Name": "Thief",
+            "Skills": ["Fast Hands", "Second-Story Work", "Supreme Sneak", "Use Magic Device"]
+          },
+          {
+            "Name": "Assassin",
+            "Skills": ["Assassinate", "Infiltration Expertise", "Impostor", "Death Strike"]
+          }
+        ]
+      }
+    ]
+  }
+  
