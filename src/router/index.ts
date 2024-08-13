@@ -1,6 +1,6 @@
-import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
-import CreatorView from '../views/CreatorView.vue'
+import { createRouter, createWebHistory } from 'vue-router';
+import HomeView from '../views/HomeView.vue';
+import CreatorView from '../views/CreatorView.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -11,8 +11,8 @@ const router = createRouter({
       component: CreatorView
     },
     {
-      path: '/Ekwipunkek',
-      name: 'Ekwipunkek',
+      path: '/Ekwipunek',
+      name: 'Ekwipunek',
       component: HomeView
     },
     {
@@ -20,8 +20,7 @@ const router = createRouter({
       name: 'Zaklęcia',
       component: HomeView
     }
-
   ]
-})
+});
 
-export default router
+export default router;
